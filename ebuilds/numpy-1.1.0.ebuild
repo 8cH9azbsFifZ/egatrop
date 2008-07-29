@@ -10,6 +10,9 @@ MIRROR=http://mirror.corvix.eu
 
 export PYTHON_LIB=$EBIN_DIR/lib/python2.5/site-packages 
 export PYTHONPATH=$EBIN_DIR/lib/python2.5/site-packages
+export LD_LIBRARY_PATH="$EBIN_DIR/lib"
+export LD_RUN_PATH=$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH LD_RUN_PATH
 export LAPACK=$EBIN_DIR/lib/libfblas.a
 export MKL=None
 export BLAS=$EBIN_DIR/lib/libfblas.a
