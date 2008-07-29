@@ -65,7 +65,7 @@ _epython() {
 
 _epython_install() {
    _epython setup.py install
-   _esu chmod -R aog+rx $EBASE/lib/python*
+   _esu chmod -R aog+rwx $EBASE/lib/python2.5
 }
 
 _einstall() {
