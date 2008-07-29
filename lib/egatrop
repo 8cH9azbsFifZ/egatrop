@@ -59,7 +59,7 @@ _emd5check() {
 
 _epython() {
    LOG "pyhton wrapper"
-   cmd=${@/install/install $_PREFIX --force --record=$ILOG}
+   cmd=${@/install/install --prefix=$EBIN_DIR --force --record=$ILOG}
    _esu python $(echo $cmd)
 }
 

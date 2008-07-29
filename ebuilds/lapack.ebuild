@@ -41,7 +41,7 @@ make_lapack() {
    cp INSTALL/make.inc.LINUX make.inc 
    cat make.inc | sed 's/g77/gfortran/g' > /tmp/123
    mv /tmp/123 make.inc
-   _ make lapacklib
+   make lapacklib
    LOG "This one had to fail :/"
    patch_lapack
    _ make lapacklib
