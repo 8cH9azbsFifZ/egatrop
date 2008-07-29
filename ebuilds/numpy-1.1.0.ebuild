@@ -13,7 +13,7 @@ export PYTHONPATH=$EBIN_DIR/lib/python2.5/site-packages
 export LD_LIBRARY_PATH="$EBIN_DIR/lib"
 export LD_RUN_PATH=$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH LD_RUN_PATH
-export LAPACK=$EBIN_DIR/lib/libfblas.a
+export LAPACK=$EBIN_DIR/lib/libflapack.a
 export MKL=None
 export BLAS=$EBIN_DIR/lib/libfblas.a
 export INCPATH=$EBIN_DIR/include
