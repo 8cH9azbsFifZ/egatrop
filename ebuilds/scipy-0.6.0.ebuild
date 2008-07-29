@@ -11,7 +11,7 @@ cat scipy/sandbox/setup.py | awk '/add_subpackage/&&/delaunay/{gsub("#","");prin
 mv tmp scipy/sandbox/setup.py
 export PYTHON_LIB=$EBIN_DIR/lib/python2.5/site-packages 
 export PYTHONPATH=$EBIN_DIR/lib/python2.5/site-packages
-export LAPACK=$EBIN_DIR/lib/libfblas.a
+export LAPACK=$EBIN_DIR/lib/libflapack.a
 export BLAS=$EBIN_DIR/lib/libfblas.a
 export INCPATH=$EBIN_DIR/include
 [[ -e $BLAS ]] || DIE "Missing BLAS: $BLAS"
