@@ -5,9 +5,10 @@ egatrop
 	use-flags
 
 ebuilds
+	matplotlib
+		atlas / lapack errors on runtime...
 	included gerolfs good-scripts
 	rip off from ports
-
 
 Later
 	make independent on distro 
